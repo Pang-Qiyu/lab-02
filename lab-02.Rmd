@@ -22,8 +22,8 @@ data1 <- read_csv("data/mismanaged-plastic-waste-per-capita.csv")
 
 
 # Member 4 (pair 2) write code to load File 2 data here:
-
-
+plastic_data <- read _delim("per-capita-ocean-plastic-waste.txt",delim = ";")
+plastic_data %>% head( )
 
 # Member 1 (pair 1) write code to load File 3 data here:
 
