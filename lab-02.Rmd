@@ -108,7 +108,7 @@ plastic_data_all %>% group_by(region) %>% summarize(mean=mean(total_mismanage_pl
 
 ```{r Ex3, message = FALSE}
 # Write your code here to answer exercise 3
-
+plastic_data_all %>% mutate(pct_ocean = (mismanaged_plastic_ocean / mismanaged_plastic) *100) %>% group_by(region) %>% summarise(avg_pct_ocean = mean(pct_ocean, na.rm = TRUE))
 
 
 ```
