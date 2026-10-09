@@ -1,6 +1,6 @@
 ---
 title: "Lab 02 - Global plastic waste"
-author: "Team Name: Pang-Qiyu, Zhou-Ziqiao, user 3, user 4"
+author: "Team Name: Pang-Qiyu, Zhou-Ziqiao, Ali Hamzeh, Yachen Wang"
 date: "`r Sys.Date()`"
 output: html_document
 ---
